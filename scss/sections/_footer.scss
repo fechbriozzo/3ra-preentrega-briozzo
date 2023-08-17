@@ -1,0 +1,22 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    a {
+      margin: 0 10px;
+
+      img {
+        width: 25px;
+        height: auto;
+      }
+    }
+  }
+}

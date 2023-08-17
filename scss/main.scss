@@ -1,0 +1,21 @@
+@import "./scss/sections/header";
+@import "./scss/sections/footer";
+@import "./scss/sections/main-contacto";
+@import "./scss/sections/main-proyectos";
+@import "./scss/sections/main-sobremi";
+@import "./scss/sections/main-links";
+@import "./scss/sections/main-home";
+
+ 
+  @media (max-width: 600px) {
+    .image-row {
+      justify-content: center;
+      margin-left: 70px;
+    }
+  
+    .image {
+      width: 80px;
+      height: 80px;
+    }
+  }
+ 

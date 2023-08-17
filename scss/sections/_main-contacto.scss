@@ -1,0 +1,48 @@
+.form-container {
+  display: flex;
+  grid-template-columns: 1.7fr 1.3fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "contact img";
+  flex-wrap: wrap;
+
+  .contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 100%;
+    font-weight: bold;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    text-align: left;
+
+    label {
+      margin-bottom: 10px;
+      font-family: sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px;
+    }
+
+    input,
+    textarea {
+      margin-bottom: 0px;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+  }
+
+  .image-container {
+    img {
+      width: 400px;
+    }
+  }
+}
